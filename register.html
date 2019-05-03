@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="number/html">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
+    <title>shoppingcart</title>
+
+    <style type="text/css">
+    #register {
+        background-color: rgb(149, 229, 243);
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    #wel {
+        margin: 0;
+    }
+
+    h1 {
+        font: 50px Arial;
+        margin: 0;
+    }
+
+    form {
+        border: rgb(150, 150, 245) dotted;
+        border-radius: 10px;
+        padding: 20px 0px 0px 0px;
+        margin: 20px auto 20px auto;
+        width: 60%;
+        height: 150px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font: 30px Arial;
+        background-color: whitesmoke;
+    }
+
+    #account {
+        color: rgb(211, 250, 140);
+        font-size: 30px;
+        color: rgb(3, 5, 0);
+        background-color: whitesmoke;
+        border: 1px solid #000080;
+        border-radius: 10px;
+        width: 40%;
+        height: 30px;
+    }
+
+    #password {
+        color: rgb(211, 250, 140);
+        font-size: 30px;
+        color: rgb(3, 5, 0);
+        background-color: whitesmoke;
+        border: 1px solid #000080;
+        border-radius: 10px;
+        width: 40%;
+        height: 30px;
+    }
+
+    #but {
+        color: rgb(211, 250, 140);
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(3, 5, 0);
+        background-color: white;
+        margin: 15px;
+        border: 1px solid #000080;
+        border-radius: 10px;
+        width: 60px;
+        height: 30px;
+    }
+    </style>
+
+    <script type="text/javascript">
+    function validate_required() {
+        var account = document.getElementsByID("account");
+        var password = document.getElementsByID("password");
+    //用户名不能为空
+        if (account.value == null || account.value == "") {
+            prompt("the account can't be empty");
+            return false;
+        }
+    //密码不能为空
+        else if (password.value == null || password.value == "") {
+            prompt("the password can't be empty");
+            return false;
+        }
+    //验证用户名和密码
+        else if (trim(account.value) !== "scut123456") {
+            prompt("wrong account");
+            account.focus();
+            return false;
+        }
+        else if(trim(password.value) !== "scut123456"){
+            prompt("wrong password");
+            password.focus();
+            return false;
+        }
+        else{
+            return true;
+        }
+
+        function trim(str){
+                return str.replace(/(^\s*)|(\s*$)/g, "");
+            }
+    }    
+    </script>
+</head>
+
+<body>
+    <div id="register">
+        <div id="wel">
+            <h1 style="color: black; text-align: center; margin-left: auto; margin-right: auto">
+                Welcome to the shopping plaza
+            </h1>
+        </div>
+        <form action="index.html" method="post" onsubmit="return validate_required();">
+            <span>账号：</span>
+            <input id="account" name="account" type="text" value="">
+            <br>
+            <span>密码：</span>
+            <input id="password" name="password" type="password" value="">
+            <br>
+            <input id="but" type="submit" value="提交">
+        </form>
+    </div>
+</body>
+
+</html>
