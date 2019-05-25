@@ -1,3 +1,18 @@
+body {
+    margin: 0;
+
+    background-color: white;
+}
+
+.container-fluid{
+    position: absolute;
+    overflow: auto;
+    top: 10%;
+    bottom: 8%;
+
+    width: 100%;
+}
+
 #top {
     /* Positioning */
     position: absolute;
@@ -11,844 +26,24 @@
     background-color: #d3e5ecc5;
 }
 
-#main {
-    position: absolute;
-    overflow: auto;
-    top: 10%;
-    bottom: 8%;
-    
-    width: 100%;
-}
-
-#leader {
-    position: absolute;
-    bottom: 0;
-
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 8%;
-
-    background-color: rgba(182, 187, 185, 0.747);
-}
-
-#home {
+#container {
     float: left;
-
-    width: 20%;
-    height: 100%;
-    border: 1px #333 ;
-}
-
-#shoes {
-    float: left;
-
-    width: 20%;
-    border: 1px #333 ;
-    height: 100%;
-}
-#clothes {
-    float: left;
-
-    width: 20%;
-    border: 1px #333 ;
-    height: 100%;
-}
-#snack {    
-    float: left;
-
-    width: 20%;
-    border: 1px #333 ;
-    height: 100%;
-}
-#shoppingcart {    
-    float: left;
-
-    width: 20%;
-    border: 1px #333 ;
-    height: 100%;
-}
-
-#activity1 {
-    width: 100%;
-    height: 40%;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity1.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity2 {
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-    float: left;
-    background: url("../image/activity2.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity3 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity3.png") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity4 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity4.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity5 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity5.png") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity6 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity6.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-#activity7 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/activity7.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes1 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes1.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes2 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes2.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes3 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes3.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes4 {    
-    float: left;
-    
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes4.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes5 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes5.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes6 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes6.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes7 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes7.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#shoes8 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/shoes8.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes1 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes1.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes2 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes2.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes3 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes3.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes4 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes4.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes5 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes5.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes6 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes6.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes7 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes7.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#clothes8 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/clothes8.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack1 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack1.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack2 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack2.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack3 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack3.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack4 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack4.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack5 {   
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack5.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack6 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack6.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack7 {    
-    float: left;
-
-    width: 45%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack7.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-#snack8 {    
-    float: left;
-
-    width: 50%;
-    height: 80%;
-    margin: 20px 10px;
-    border: 1px solid #b5b5b5;
-
-    background: url("../image/snack8.jpg") no-repeat center;
-    background-size: 100% auto;
-    background-position: center center;
-}
-
-
-@media (max-width: 767px) {
-    #activity2 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity2.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #activity3 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity3.png") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #activity4 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity4.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #activity5 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity5.png") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #activity6 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity6.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #activity7 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/activity7.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes1 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes1.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes2 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes2.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes3 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes3.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes4 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes4.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes5 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes5.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes6 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes6.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes7 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes7.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #shoes8 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/shoes8.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes1 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes1.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes2 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes2.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes3 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes3.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes4 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes4.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes5 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes5.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes6 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes6.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes7 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes7.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #clothes8 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/clothes8.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack1 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack1.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack2 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack2.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack3 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack3.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack4 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack4.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack5 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack5.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack6 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack6.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack7 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack7.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-    #snack8 {
-        float: left;
-
-        width: 100%;
-        height: 80%;
-        border: 1px solid #b5b5b5;
-
-        background: url("../image/snack8.jpg") no-repeat center;
-        background-size: 100% auto;
-        background-position: center center;
-    }
-
-}
-
-
-body {
-    margin: 0;
-
-    background-color: white;
-}
-
-.container {
-    float: left;    
     top: 20%;
 
     margin: 0;
-    width: 80%;
+    padding: 0;
+    width: 60%;
     height: 100%;
 }
 
-input[type=text] {    
+input[type=text] {
     width: 40%;
     min-height: 32px;
-    margin: 20px 30px;
+    margin: 20px 10px;
     padding: 7px 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    
+
     font-size: 13px;
     color: #333;
     vertical-align: middle;
@@ -864,44 +59,6 @@ input[type=text] {
     transition: all 0.15s ease-in;
     -webkit-transition: all 0.15s ease-in 0;
 }
-
-#changestyle {
-    position: absolute;    
-    right: 20px;
-
-    height: 100%;
-    width: 20%;
-}
-
-#change-background-color {
-    margin: 13px 10px;
-    width: 45px;
-    height: 45px;
-    padding: .3em .5em;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3em;
-    
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-weight: bold black;
-    font-size: 10px;
-
-    background-image: linear-gradient(#f5c153, #ea920d);
-    
-    box-shadow: 0 1px white inset;
-    text-shadow: 0 1px 1px black;
-}
-
-#change-background-color:active {    
-    border-color: rgba(0, 0, 0, .3);    
-    
-    background: #bbb;
-
-    box-shadow: .05em .1em .2em rgba(0, 0, 0, .6) inset;
-}
-
 
 .button {
     position: absolute;
@@ -927,7 +84,7 @@ input[type=text] {
 
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
     white-space: nowrap;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .05); 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
     cursor: pointer;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -941,13 +98,13 @@ input[type=text] {
 }
 
 .button:hover,
-.button:active {    
+.button:active {
     border-color: #ccc #ccc #b5b5b5;
 
     background-position: 0 -15px;
 }
 
-.button:active {    
+.button:active {
     border-color: #b5b5b5;
 
     background-color: #dadada;
@@ -956,7 +113,7 @@ input[type=text] {
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .15);
 }
 
-.button:focus, 
+.button:focus,
 input[type=text]:focus {
     outline: none;
     border-color: #51a7e8;
@@ -964,7 +121,634 @@ input[type=text]:focus {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 5px rgba(81, 167, 232, .5);
 }
 
+#change-background-color {
+    float: none;
+    top: 20%;
 
+    margin: 20px 10px;
+    width: 70px;
+    height: 35px;
+    padding: .3em .5em;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3em;
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold black;
+    font-size: 10px;
+
+    background-image: linear-gradient(#afafae, #adacab);
+
+    box-shadow: 0 1px white inset;
+    text-shadow: 0 1px 1px black;
+}
+
+#change-background-color:active {
+    border-color: rgba(0, 0, 0, .3);
+
+    background: #bbb;
+
+    box-shadow: .05em .1em .2em rgba(0, 0, 0, .6) inset;
+}
+
+#time {
+    float: right;
+    width: 10%;
+    height: 100%;
+    margin: 10px 0;
+}
+
+#btime,
+#ntime {
+    position: relative;
+    z-index: auto;
+    height: 40%;
+
+    color: black;
+    vertical-align: middle;
+}
+
+#leader {
+    position: absolute;
+    bottom: 0;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 8%;
+
+    background-color: rgba(182, 187, 185, 0.747);
+}
+
+#home,
+#shoes,
+#clothes,
+#snack,
+#shoppingcart {
+    float: left;
+
+    width: 20%;
+    height: 100%;
+    border: 1px whitesmoke solid;
+}
+
+#activity2,
+#activity3,
+#activity4,
+#activity5,
+#activity6,
+#activity7,
+#shoes1,
+#shoes2,
+#shoes3,
+#shoes4,
+#shoes5,
+#shoes6,
+#shoes7,
+#shoes8,
+#clothes1,
+#clothes2,
+#clothes3,
+#clothes4,
+#clothes5,
+#clothes6,
+#clothes7,
+#clothes8,
+#snack1,
+#snack2,
+#snack3,
+#snack4,
+#snack5,
+#snack6,
+#snack7,
+#snack8 {
+    position: absolute;
+
+    width: 49%;
+    height: 80%;
+    margin: 20px 0 20px 10px;
+    border: 1px solid #b5b5b5;
+
+    background-size: cover;
+    -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover; /* 兼容Opera */
+    background-position: center center;
+} 
+
+#activity1 {
+    width: 100%;
+    height: 60%;
+    border: 1px solid #b5b5b5;
+
+    background: url("../image/activity1.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover; /* 兼容Opera */
+    background-position: center center;
+}
+#activity2 {
+    left: 0;
+    top: 60%;
+    background: url("../image/activity2.jpg") no-repeat center;
+}
+#activity3 {
+    left: 50%;
+    top: 60%;
+    background: url("../image/activity3.png") no-repeat center;
+}
+#activity4 {
+    left: 0;
+    top: 144%;
+    background: url("../image/activity4.jpg") no-repeat center;
+}
+#activity5 {
+    left: 50%;
+    top: 144%;
+    background: url("../image/activity5.png") no-repeat center;
+}
+#activity6 {
+    left: 0;
+    top: 228%;
+    background: url("../image/activity6.jpg") no-repeat center;
+}
+#activity7 {
+    left: 50%;
+    top: 228%;
+    background: url("../image/activity7.jpg") no-repeat center;
+}
+
+#shoes1 {
+    left: 0;
+    top: 0;
+    background: url("../image/shoes1.jpg") no-repeat center;
+}
+
+#shoes2 {
+    left: 50%;
+    top: 0;
+    background: url("../image/shoes2.jpg") no-repeat center;
+}
+
+#shoes3 {
+    left: 0;
+    top: 92%;
+    background: url("../image/shoes3.jpg") no-repeat center;
+}
+
+#shoes4 {
+    left: 50%;
+    top: 92%;
+    background: url("../image/shoes4.jpg") no-repeat center;
+}
+
+#shoes5 {
+    left: 0;
+    top: 184%;
+    background: url("../image/shoes5.jpg") no-repeat center;
+}
+
+#shoes6 {
+    left: 50%;
+    top: 184%;
+    background: url("../image/shoes6.jpg") no-repeat center;
+}
+
+#shoes7 {
+    left: 0;
+    top: 276%;
+    background: url("../image/shoes7.jpg") no-repeat center;
+}
+
+#shoes8 {
+    left: 50%;
+    top: 276%;
+    background: url("../image/shoes8.jpg") no-repeat center;
+}
+
+#clothes1 {
+    left: 0;
+    top: 0;
+    background: url("../image/clothes1.jpg") no-repeat center;
+}
+
+#clothes2 {
+    left: 50%;
+    top: 0;
+    background: url("../image/clothes2.jpg") no-repeat center;
+}
+
+#clothes3 {
+    left: 0;
+    top: 92%;
+    background: url("../image/clothes3.jpg") no-repeat center;
+}
+
+#clothes4 {
+    left: 50%;
+    top: 92%;
+    background: url("../image/clothes4.jpg") no-repeat center;
+}
+
+#clothes5 {
+    left: 0;
+    top: 184%;
+    background: url("../image/clothes5.jpg") no-repeat center;
+}
+
+#clothes6 {
+    left: 50%;
+    top: 184%;
+    background: url("../image/clothes6.jpg") no-repeat center;
+}
+
+#clothes7 {
+    left: 0;
+    top: 276%;
+    background: url("../image/clothes7.jpg") no-repeat center;
+}
+
+#clothes8 {
+    left: 50%;
+    top: 276%;
+    background: url("../image/clothes8.jpg") no-repeat center;
+}
+
+#snack1 {
+    left: 0;
+    top: 0;
+    background: url("../image/snack1.jpg") no-repeat center;
+}
+
+#snack2 {
+    left: 50%;
+    top: 0;
+    background: url("../image/snack2.jpg") no-repeat center;
+}
+
+#snack3 {
+    left: 0;
+    top: 92%;
+    background: url("../image/snack3.jpg") no-repeat center;
+}
+
+#snack4 {
+    left: 50%;
+    top: 92%;
+    background: url("../image/snack4.jpg") no-repeat center;
+}
+
+#snack5 {
+    left: 0;
+    top: 184%;
+    background: url("../image/snack5.jpg") no-repeat center;
+}
+
+#snack6 {
+    left: 50%;
+    top: 184%;
+    background: url("../image/snack6.jpg") no-repeat center;
+}
+
+#snack7 {
+    left: 0;
+    top: 276%;
+    background: url("../image/snack7.jpg") no-repeat center;
+}
+
+#snack8 {
+    left: 50%;
+    top: 276%;
+    background: url("../image/snack8.jpg") no-repeat center;
+}
+
+#ashoes1,
+#ashoes2,
+#ashoes3,
+#ashoes4,
+#ashoes5,
+#ashoes6,
+#ashoes7,
+#ashoes8,
+#aclothes1,
+#aclothes2,
+#aclothes3,
+#aclothes4,
+#aclothes5,
+#aclothes6,
+#aclothes7,
+#aclothes8,
+#asnack1,
+#asnack2,
+#asnack3,
+#asnack4,
+#asnack5,
+#asnack6,
+#asnack7,
+#asnack8 {
+    width: 49%;
+    height: 10%;
+    margin: 0 0 0 10px;
+}
+
+#ashoes1,
+#ashoes2,
+#aclothes1,
+#aclothes2,
+#asnack1,
+#asnack2 {
+    position: absolute;
+    top: 84%;
+}
+
+#ashoes3,
+#ashoes4,
+#aclothes3,
+#aclothes4,
+#asnack3,
+#asnack4 {
+    position: absolute;
+    top: 176%;
+}
+
+#ashoes5,
+#ashoes6,
+#aclothes5,
+#aclothes6,
+#asnack5,
+#asnack6 {
+    position: absolute;
+    top: 268%;
+}
+
+#ashoes7,
+#ashoes8,
+#aclothes7,
+#aclothes8,
+#asnack7,
+#asnack8 {
+    position: absolute;
+    top: 360%;
+}
+
+#ashoes1，
+#ashoes3,
+#ashoes5,
+#ashoes7,
+#aclothes1,
+#aclothes3,
+#aclothes5,
+#aclothes7,
+#asnack1,
+#asnack3,
+#asnack5,
+#asnack7 {
+    left: 0;
+}
+
+#ashoes2,
+#ashoes4,
+#ashoes6,
+#ashoes8,
+#aclothes2,
+#aclothes4,
+#aclothes6,
+#aclothes8,
+#asnack2,
+#asnack4,
+#asnack6,
+#asnack8 {
+    left: 50%;
+}
+
+#addshoes1,
+#addshoes2,
+#addshoes3,
+#addshoes4,
+#addshoes5,
+#addshoes6,
+#addshoes7,
+#addshoes8,
+#addclothes1,
+#addclothes2,
+#addclothes3,
+#addclothes4,
+#addclothes5,
+#addclothes6,
+#addclothes7,
+#addclothes8,
+#addsnack1,
+#addsnack2,
+#addsnack3,
+#addsnack4,
+#addsnack5,
+#addsnack6,
+#addsnack7,
+#addsnack8 {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: 5%;
+    right: 0;
+    margin: 0;
+}
+
+#ashoes1,
+#ashoes3 {
+    margin: 0 0 0 -5px;
+}
+
+@media (max-width: 767px) {
+    #activity1 {
+        height: 30%;        
+    }
+
+    #activity2,
+    #activity3,
+    #activity4,
+    #activity5,
+    #activity6,
+    #activity7,
+    #shoes1,
+    #shoes2,
+    #shoes3,
+    #shoes4,
+    #shoes5,
+    #shoes6,
+    #shoes7,
+    #shoes8,
+    #clothes1,
+    #clothes2,
+    #clothes3,
+    #clothes4,
+    #clothes5,
+    #clothes6,
+    #clothes7,
+    #clothes8,
+    #snack1,
+    #snack2,
+    #snack3,
+    #snack4,
+    #snack5,
+    #snack6,
+    #snack7,
+    #snack8 {
+        position: absolute;
+        width: 90%;
+        height: 60%;
+        border: 1px solid #b5b5b5;
+        margin: 0;
+        left: 5%;
+
+        background-size: cover;
+        -webkit-background-size: cover;
+        /* 兼容Webkit内核浏览器如Chrome和Safari */
+        -o-background-size: cover;
+        /* 兼容Opera */
+        background-position: center center;
+    }
+
+    #activity2 {
+        top: 32%;
+    }
+
+    #activity3 {
+        top: 97%;
+    }
+
+    #activity4 {
+        top: 162%;
+    }
+
+    #activity5 {
+        top: 227%;
+    }
+
+    #activity6 {
+        top: 292%;
+    }
+
+    #activity7 {
+        top: 357%;
+    }
+
+    
+    #shoes1,
+    #clothes1,
+    #snack1 {
+        top: 2%;
+    }
+    #shoes2,
+    #clothes2,
+    #snack2 {
+        top: 78%;
+    }
+    #shoes3,
+    #clothes3,
+    #snack3 {
+        top: 153%;
+    }
+    #shoes4,
+    #clothes4,
+    #snack4 {
+        top: 228%;
+    }
+    #shoes5,
+    #clothes5,
+    #snack5 {
+        top: 303%;
+    }
+    #shoes6,
+    #clothes6,
+    #snack6 {
+        top: 378%;
+    }
+    #shoes7,
+    #clothes7,
+    #snack7 {
+        top: 453%;
+    }
+    #shoes8,
+    #clothes8,
+    #snack8 {
+        top: 528%;
+    }
+
+    #ashoes1,
+    #ashoes2,
+    #ashoes3,
+    #ashoes4,
+    #ashoes5,
+    #ashoes6,
+    #ashoes7,
+    #ashoes8,
+    #aclothes1,
+    #aclothes2,
+    #aclothes3,
+    #aclothes4,
+    #aclothes5,
+    #aclothes6,
+    #aclothes7,
+    #aclothes8,
+    #asnack1,
+    #asnack2,
+    #asnack3,
+    #asnack4,
+    #asnack5,
+    #asnack6,
+    #asnack7,
+    #asnack8 {
+        position: absolute;
+        width: 90%;
+        height: 15%;
+
+        margin: 0;
+        left: 5%;
+    }
+
+    
+    #ashoes1,
+    #aclothes1,
+    #asnack1 {
+        top: 65%;
+    }
+    #ashoes2,
+    #aclothes2,
+    #asnack2 {
+        top: 140%;
+    }
+    #ashoes3,
+    #aclothes3,
+    #asnack3 {
+        top: 215%;
+    }
+    #ashoes4,
+    #aclothes4,
+    #asnack4 {
+        top: 290%;
+    }
+    #ashoes5,
+    #aclothes5,
+    #asnack5 {
+        top: 365%;
+    }
+    #ashoes6,
+    #aclothes6,
+    #asnack6 {
+        top: 440%;
+    }
+    #ashoes7,
+    #aclothes7,
+    #asnack7 {
+        top: 515%;
+    }
+    #ashoes8,
+    #aclothes8,
+    #asnack8 {
+        top: 590%;
+    }
+}
 
 #choose {
     position: absolute;
@@ -973,6 +757,169 @@ input[type=text]:focus {
     bottom: 18%;
 
     width: 100%;
+}
+
+#pshoes1sdi,
+#pshoes2sdi,
+#pshoes3sdi,
+#pshoes4sdi,
+#pshoes5sdi,
+#pshoes6sdi,
+#pshoes7sdi,
+#pshoes8sdi,
+#pclothes1sdi,
+#pclothes2sdi,
+#pclothes3sdi,
+#pclothes4sdi,
+#pclothes5sdi,
+#pclothes6sdi,
+#pclothes7sdi,
+#pclothes8sdi,
+#psnack1sdi,
+#psnack2sdi,
+#psnack3sdi,
+#psnack4sdi,
+#psnack5sdi,
+#psnack6sdi,
+#psnack7sdi,
+#psnack8sdi {
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid #b5b5b5;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    /* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;
+    /* 兼容Opera */
+    background-position: center center;
+}
+
+#pshoes1sdi {
+    background: url("../image/shoes1.jpg") no-repeat center;
+}
+
+#pshoes2sdi {
+    background: url("../image/shoes2.jpg") no-repeat center;
+}
+
+#pshoes3sdi {
+    background: url("../image/shoes3.jpg") no-repeat center;
+}
+
+#pshoes4sdi {
+    background: url("../image/shoes4.jpg") no-repeat center;
+}
+
+#pshoes5sdi {
+    background: url("../image/shoes5.jpg") no-repeat center;
+}
+
+#pshoes6sdi {
+    background: url("../image/shoes6.jpg") no-repeat center;
+}
+
+#pshoes7sdi {
+    background: url("../image/shoes7.jpg") no-repeat center;
+}
+
+#pshoes8sdi {
+    background: url("../image/shoes8.jpg") no-repeat center;
+}
+
+#pclothes1sdi {
+    background: url("../image/clothes1.jpg") no-repeat center;
+}
+
+#pclothes2sdi {
+    background: url("../image/clothes2.jpg") no-repeat center;
+}
+
+#pclothes3sdi {
+    background: url("../image/clothes3.jpg") no-repeat center;
+}
+
+#pclothes4sdi {
+    background: url("../image/clothes4.jpg") no-repeat center;
+}
+
+#pclothes5sdi {
+    background: url("../image/clothes5.jpg") no-repeat center;
+}
+
+#pclothes6sdi {
+    background: url("../image/clothes6.jpg") no-repeat center;
+}
+
+#pclothes7sdi {
+    background: url("../image/clothes7.jpg") no-repeat center;
+}
+
+#pclothes8sdi {
+    background: url("../image/clothes8.jpg") no-repeat center;
+}
+
+#psnack1sdi {
+    background: url("../image/snack1.jpg") no-repeat center;
+}
+
+#psnack2sdi {
+    background: url("../image/snack2.jpg") no-repeat center;
+}
+
+#psnack3sdi {
+    background: url("../image/snack3.jpg") no-repeat center;
+}
+
+#psnack4sdi {
+    background: url("../image/snack4.jpg") no-repeat center;
+}
+
+#psnack5sdi {
+    background: url("../image/snack5.jpg") no-repeat center;
+}
+
+#psnack6sdi {
+    background: url("../image/snack6.jpg") no-repeat center;
+}
+
+#psnack7sdi {
+    background: url("../image/snack7.jpg") no-repeat center;
+}
+
+#psnack8sdi {
+    background: url("../image/snack8.jpg") no-repeat center;
+}
+
+#decshoes1,
+#decshoes2,
+#decshoes3,
+#decshoes4,
+#decshoes5,
+#decshoes6,
+#decshoes7,
+#decshoes8,
+#decclothes1,
+#decclothes2,
+#decclothes3,
+#decclothes4,
+#decclothes5,
+#decclothes6,
+#decclothes7,
+#decclothes8,
+#decsnack1,
+#decsnack2,
+#decsnack3,
+#decsnack4,
+#decsnack5,
+#decsnack6,
+#decsnack7,
+#decsnack8 {
+    float: right;
+    margin: 20px 20px 0 0;
 }
 
 #cost {
@@ -987,6 +934,16 @@ input[type=text]:focus {
     background-color: aquamarine;
 }
 
+#allcostnum {
+    float: left;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: 100%;
+    margin: 25px 0 0 20px;
+    font-size: 20px;
+    color: black;
+}
 
 span {
     float: left;
@@ -1026,14 +983,13 @@ span {
 }
 
 
-
 body,
 input,
 button {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#moveof {
+/* #moveof {
     position: absolate;
     bottom: 0;
     right: 0;
@@ -1041,4 +997,15 @@ button {
     width: 30px;
     height: 20px; 
 }
+ */
+#osave{
+    position: absolute;
+    bottom: 13%;
+    right: 24%;
+}
 
+#save {
+    position: absolute;
+    bottom: 13%;
+    right: 20%;
+}
